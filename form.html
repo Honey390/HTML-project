@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing</title>
+    <link rel="stylesheet" href="./testcss/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title text-center">Form Design</h1>
+      <section class="form">
+        <fieldset>
+          <legend>Administrator? Get Started Now!</legend>
+          <table class="form-table">
+            <tr>
+              <td class="first">
+                <label for="fname" >First</label>
+              </td>
+              <td class="first"><label for="lname">Last</label></td>
+
+              <td><label for="title">Your Title</label></td>
+            </tr>
+            <tr>
+              <td class="first"><input type="text" name="fname" id="fname" /></td>
+              <td class="first"><input type="text" name="lname" id="lname" /></td>
+              <td><input type="text" name="title" id="title" /></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <label for="email">Your Email</label>
+              </td>
+              <td>
+                <label for="school_name">School Name</label>
+              </td>
+            </tr>
+            <tr>
+              <td class="email-box" colspan="2">
+                <input type="email" name="email" id="email" />
+              </td>
+
+              <td>
+                <input type="text" name="school_name" id="school_name" />
+              </td>
+            </tr>
+            <tr>
+               <td colspan="3"><p></p></td>
+            </tr>
+          </table>
+          <p class="text-left">When do you plan to use Involvio?</p>
+          
+          <div class="radio-check text-left" >
+            <div class="radio-box">
+              <input type="radio" id="orientation" name="orientation" value="orientation" class="radio-cirlce">
+          <label for="orientation">Orientation</label>
+            </div>
+         <div class="radio-box">
+          <input type="radio" id="school-year" name="school-year" value="school-year" class="radio-cirlce">
+          <label for="school-year">School Year</label>
+         </div>
+          <div class="radio-box">
+            <input type="radio" id="both" name="both" value="both" class="radio-cirlce">
+          <label for="both">Both</label>
+          </div>
+          </div>
+          <button class="btn  submit-btn">Submit</button>
+       
+        </fieldset>
+      </section>
+      <section class="form login-form ">
+        <fieldset>
+          <legend class="login-legend"><i class="fa-solid fa-fw fa-user"></i></legend>
+          
+          <input class="user" type="text" name="username" id="username" value="Username"><br>
+          <input class="pw" type="text" name="password" id="password" value="Password">
+          
+          <button class="btn sign-in-btn ">Sign In</button>
+          <div class="check">
+            <input type="checkbox" id="keep" class="checkbox" ><label class="checkbox-label" for="keep">Keep me logged in</label>
+       
+          </div>  
+        </fieldset>
+      </section>
+    </main>
+    <div class="" style="height: 1000px"></div>
+  </body>
+</html>
